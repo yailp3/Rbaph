@@ -9,7 +9,7 @@
  *
  * Model version                  : 1.65
  * Simulink Coder version         : 23.2 (R2023b) 01-Aug-2023
- * C/C++ source code generated on : Wed Oct  1 17:23:27 2025
+ * C/C++ source code generated on : Fri Oct 10 14:19:44 2025
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM 64-bit (LP64)
@@ -5492,10 +5492,10 @@ void Rbaph_position_controler_initialize(void)
   Rbaph_position_controler_M->Timing.stepSize0 = 0.01;
 
   /* External mode info */
-  Rbaph_position_controler_M->Sizes.checksums[0] = (1580959259U);
-  Rbaph_position_controler_M->Sizes.checksums[1] = (3082939131U);
-  Rbaph_position_controler_M->Sizes.checksums[2] = (882290011U);
-  Rbaph_position_controler_M->Sizes.checksums[3] = (1488296560U);
+  Rbaph_position_controler_M->Sizes.checksums[0] = (4174271478U);
+  Rbaph_position_controler_M->Sizes.checksums[1] = (3207641576U);
+  Rbaph_position_controler_M->Sizes.checksums[2] = (1274020540U);
+  Rbaph_position_controler_M->Sizes.checksums[3] = (2301488138U);
 
   {
     static const sysRanDType rtAlwaysEnabled = SUBSYS_RAN_BC_ENABLE;

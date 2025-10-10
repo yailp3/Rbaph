@@ -2,7 +2,7 @@
 ## Makefile generated for component 'Rbaph_position_controler'. 
 ## 
 ## Makefile     : Rbaph_position_controler.mk
-## Generated on : Wed Oct 01 15:51:48 2025
+## Generated on : Fri Oct 10 14:19:50 2025
 ## Final product: $(RELATIVE_PATH_TO_ANCHOR)/Rbaph_position_controler.elf
 ## Product type : executable
 ## 
@@ -18,10 +18,10 @@
 
 PRODUCT_NAME              = Rbaph_position_controler
 MAKEFILE                  = Rbaph_position_controler.mk
-MATLAB_ROOT               = $(MATLAB_WORKSPACE)/D/programmes_2/MATLAB/R2023b
-MATLAB_BIN                = $(MATLAB_WORKSPACE)/D/programmes_2/MATLAB/R2023b/bin
+MATLAB_ROOT               = $(MATLAB_WORKSPACE)/C/Program_Files/MATLAB/R2023b
+MATLAB_BIN                = $(MATLAB_WORKSPACE)/C/Program_Files/MATLAB/R2023b/bin
 MATLAB_ARCH_BIN           = $(MATLAB_BIN)/win64
-START_DIR                 = $(MATLAB_WORKSPACE)/D/Bureau/stage/Matlab/Rbaph_controler/Controler_final
+START_DIR                 = $(MATLAB_WORKSPACE)/C/Users/yacine-a/Documents/MATLAB/Rbaph/Rbaph_controler/Controler_ultime
 SOLVER                    = 
 SOLVER_OBJ                = 
 CLASSIC_INTERFACE         = 0
@@ -182,7 +182,7 @@ DEFINES = $(DEFINES_) $(DEFINES_BUILD_ARGS) $(DEFINES_CUSTOM) $(DEFINES_OPTS) $(
 ## SOURCE FILES
 ###########################################################################
 
-SRCS = $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_mode.c $(START_DIR)/Rbaph_position_controler_ert_rtw/Rbaph_position_controler.c $(START_DIR)/Rbaph_position_controler_ert_rtw/Rbaph_position_controler_data.c $(START_DIR)/Rbaph_position_controler_ert_rtw/rtGetInf.c $(START_DIR)/Rbaph_position_controler_ert_rtw/rtGetNaN.c $(START_DIR)/Rbaph_position_controler_ert_rtw/rt_nonfinite.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_common.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_classic_trigger.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/protocol/src/xcp.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/protocol/src/xcp_standard.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/protocol/src/xcp_daq.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/protocol/src/xcp_calibration.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/transport/src/xcp_fifo.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/transport/src/xcp_transport.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/platform/default/xcp_mem_default.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/platform/default/xcp_drv_rtiostream.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/common/xcp_utils.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/transport/src/xcp_frame_tcp.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_param_default_tcp.c $(MATLAB_WORKSPACE)/D/Bureau/stage/Matlab/rpit/blocks/rpi_sfun_betalink_wrapper.c $(MATLAB_WORKSPACE)/D/Bureau/stage/Matlab/rpit/blocks/rpi_sfun_iosocket_wrapper.c $(MATLAB_WORKSPACE)/D/Bureau/stage/Matlab/rpit/blocks/rpi_sfun_xboxone_wrapper.c $(MATLAB_WORKSPACE)/C/ProgramData/MATLAB/SupportPackages/R2023b/toolbox/realtime/targets/raspi/src/MW_raspi_init.c $(MATLAB_WORKSPACE)/C/ProgramData/MATLAB/SupportPackages/R2023b/toolbox/realtime/targets/raspi/src/periphs/MW_Pyserver_control.c $(MATLAB_ROOT)/toolbox/target/codertarget/rtos/src/linuxinitialize.c $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/rtiostream_interface.c $(MATLAB_ROOT)/toolbox/coder/rtiostream/src/rtiostreamtcpip/rtiostream_tcpip.c $(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils/rtiostream_utils.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/platform/default/xcp_platform_default.c
+SRCS = $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_mode.c $(START_DIR)/Rbaph_position_controler_ert_rtw/Rbaph_position_controler.c $(START_DIR)/Rbaph_position_controler_ert_rtw/Rbaph_position_controler_data.c $(START_DIR)/Rbaph_position_controler_ert_rtw/rtGetInf.c $(START_DIR)/Rbaph_position_controler_ert_rtw/rtGetNaN.c $(START_DIR)/Rbaph_position_controler_ert_rtw/rt_nonfinite.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_common.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_classic_trigger.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/protocol/src/xcp.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/protocol/src/xcp_standard.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/protocol/src/xcp_daq.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/protocol/src/xcp_calibration.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/transport/src/xcp_fifo.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/transport/src/xcp_transport.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/platform/default/xcp_mem_default.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/platform/default/xcp_drv_rtiostream.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/common/xcp_utils.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/transport/src/xcp_frame_tcp.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_param_default_tcp.c $(MATLAB_WORKSPACE)/C/Users/yacine-a/Documents/MATLAB/rpit/blocks/rpi_sfun_betalink_wrapper.c $(MATLAB_WORKSPACE)/C/Users/yacine-a/Documents/MATLAB/rpit/blocks/rpi_sfun_iosocket_wrapper.c $(MATLAB_WORKSPACE)/C/Users/yacine-a/Documents/MATLAB/rpit/blocks/rpi_sfun_xboxone_wrapper.c $(MATLAB_WORKSPACE)/C/ProgramData/MATLAB/SupportPackages/R2023b/toolbox/realtime/targets/raspi/src/MW_raspi_init.c $(MATLAB_WORKSPACE)/C/ProgramData/MATLAB/SupportPackages/R2023b/toolbox/realtime/targets/raspi/src/periphs/MW_Pyserver_control.c $(MATLAB_ROOT)/toolbox/target/codertarget/rtos/src/linuxinitialize.c $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/rtiostream_interface.c $(MATLAB_ROOT)/toolbox/coder/rtiostream/src/rtiostreamtcpip/rtiostream_tcpip.c $(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils/rtiostream_utils.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/platform/default/xcp_platform_default.c
 
 MAIN_SRC = $(START_DIR)/Rbaph_position_controler_ert_rtw/ert_main.c
 
@@ -363,15 +363,15 @@ $(PRODUCT) : $(OBJS) $(PREBUILT_OBJS) $(LIBS) $(MAIN_OBJ)
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-%.c.o : $(MATLAB_WORKSPACE)/D/Bureau/stage/Matlab/rpit/blocks/%.c
+%.c.o : $(MATLAB_WORKSPACE)/C/Users/yacine-a/Documents/MATLAB/rpit/blocks/%.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
-%.s.o : $(MATLAB_WORKSPACE)/D/Bureau/stage/Matlab/rpit/blocks/%.s
+%.s.o : $(MATLAB_WORKSPACE)/C/Users/yacine-a/Documents/MATLAB/rpit/blocks/%.s
 	$(AS) $(ASFLAGS) -o "$@" "$<"
 
 
-%.cpp.o : $(MATLAB_WORKSPACE)/D/Bureau/stage/Matlab/rpit/blocks/%.cpp
+%.cpp.o : $(MATLAB_WORKSPACE)/C/Users/yacine-a/Documents/MATLAB/rpit/blocks/%.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
@@ -575,15 +575,15 @@ xcp_ext_param_default_tcp.c.o : $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
-rpi_sfun_betalink_wrapper.c.o : $(MATLAB_WORKSPACE)/D/Bureau/stage/Matlab/rpit/blocks/rpi_sfun_betalink_wrapper.c
+rpi_sfun_betalink_wrapper.c.o : $(MATLAB_WORKSPACE)/C/Users/yacine-a/Documents/MATLAB/rpit/blocks/rpi_sfun_betalink_wrapper.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
-rpi_sfun_iosocket_wrapper.c.o : $(MATLAB_WORKSPACE)/D/Bureau/stage/Matlab/rpit/blocks/rpi_sfun_iosocket_wrapper.c
+rpi_sfun_iosocket_wrapper.c.o : $(MATLAB_WORKSPACE)/C/Users/yacine-a/Documents/MATLAB/rpit/blocks/rpi_sfun_iosocket_wrapper.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
-rpi_sfun_xboxone_wrapper.c.o : $(MATLAB_WORKSPACE)/D/Bureau/stage/Matlab/rpit/blocks/rpi_sfun_xboxone_wrapper.c
+rpi_sfun_xboxone_wrapper.c.o : $(MATLAB_WORKSPACE)/C/Users/yacine-a/Documents/MATLAB/rpit/blocks/rpi_sfun_xboxone_wrapper.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
