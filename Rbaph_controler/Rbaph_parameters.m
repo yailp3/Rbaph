@@ -11,15 +11,17 @@ theta2 = -theta1;
 theta3 = pi;
 theta4 = theta3;
 
-% position des hélices
-r1 = [-0.125;0.060;0];
-r2 = [-0.125;-0.060;0];
-r3 = [0.080;0.070;0];
-r4 = [0.080;-0.070;0];
+G = [0;0];
 
-Kpx=3;
-Kpy=5;
-Kptheta=5;
+% position des hélices
+r1 = [G(1)-0.125;G(2)+0.060;0];
+r2 = [G(1)-0.125;G(2)-0.060;0];
+r3 = [G(1)+0.080;G(2)+0.070;0];
+r4 = [G(1)+0.080;G(2)-0.070;0];
+
+Kpx=0;
+Kpy=3;
+Kptheta=0;
 Kp=diag([Kpx, Kpy, Kptheta]);
 Kd = Kp*0.1;
 
