@@ -1,10 +1,10 @@
-\## Force calcul
+### Force calcul
 
 Calcul la force de poussée des moteurs en fonction de leur vitesse.
 
 
 
-\## operational space
+### operational space
 
 Calcul les forces atteignables par le robot.
 
