@@ -4,13 +4,13 @@ by yailp
 
 
 
-\### Rbaph\_calculs
+### Rbaph\_calculs
 
 fichiers Matlab de calculs des efforts applicables.
 
 
 
-\### Rbaph\_controler
+### Rbaph\_controler
 
 fichiers Simulink de contrôle du robot.
 
